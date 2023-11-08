@@ -6,6 +6,6 @@ globalStyles()
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (  
-    <h1>Hello world</h1>
+    <Component {...pageProps}/>
   )
 }
