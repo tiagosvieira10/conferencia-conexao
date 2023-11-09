@@ -3,6 +3,9 @@ import { styled } from ".";
 export const HomeContainer = styled('div', {
   display: 'flex',
   alignItems: 'center',
+  justifyContent: 'center',
+
+  marginTop: '5rem',
   flexDirection: 'column',
 
   '.conf24': {
@@ -10,12 +13,13 @@ export const HomeContainer = styled('div', {
   },
 
   '.theMission': {
-
+    marginTop: '-2rem'
   },
 
   '@media screen and (max-width: 768px)': {
 
-
+    marginTop: '3rem',
+  
     '.conf24': {
       height: 150,
       width: 150, 
@@ -30,4 +34,30 @@ export const HomeContainer = styled('div', {
 
 export const HomeMenu = styled('div', {
   display: 'flex',
+  gap: '2rem',
+  
+  button: {
+    height: '5rem',
+    width: '15rem',
+    padding: '0.5rem',
+
+    border: 'none',
+    borderRadius: '50px', 
+
+    backgroundColor: '$corSecundaria',
+    color: '$corFonte',
+    fontSize: '1rem',
+    fontWeight: 'normal',
+
+    cursor: 'pointer',
+    textTransform: 'uppercase',
+  },
+
+  '@media screen and (max-width: 768px)': {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column', 
+  }
+
 })

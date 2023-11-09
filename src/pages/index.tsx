@@ -7,12 +7,12 @@ import Image from "next/image"
 export default function Home() {
   return(
     <HomeContainer>
-      <Image src={logoConf24} alt='' className='conf24' height={300} width={300}/>
+      <Image src={logoConf24} alt='' className='conf24' height={200} width={200}/>
       <Image src={logTheMission} alt='' className='theMission' height={400} width={400}/>
 
       <HomeMenu>
         <button className='line-up'>Line-up do evento</button>
-        <button className='ingresso'>Garantir ingresso 1º lote</button>
+        <button className='ingresso'><strong>Garantir ingresso</strong><br />( 1º lote)</button>
       </HomeMenu>
     </HomeContainer>
    
