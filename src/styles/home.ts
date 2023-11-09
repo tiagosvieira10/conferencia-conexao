@@ -51,7 +51,15 @@ export const HomeMenu = styled('div', {
 
     cursor: 'pointer',
     textTransform: 'uppercase',
+
+    '&:hover': {
+      transform: 'scale(1.1)',
+      transition: 'transform 0.2s ease-in-out'
+    },
+
+    
   },
+
 
   '@media screen and (max-width: 768px)': {
     display: 'flex',
