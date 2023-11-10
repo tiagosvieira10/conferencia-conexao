@@ -5,5 +5,6 @@ export default function PaymentForms() {
   return (
     <PaymentFormContainer>
       <Link href={'/'}>Voltar</Link>
+      <h1>Página de pagamentos</h1>
     </PaymentFormContainer>
   )}

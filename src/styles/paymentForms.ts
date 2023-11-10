@@ -2,5 +2,6 @@ import { styled } from ".";
 
 export const PaymentFormContainer = styled('div', {
   display: 'flex',
-  margin: '0 auto'
+  margin: '0 auto',
+  flexDirection: 'column'
 })
