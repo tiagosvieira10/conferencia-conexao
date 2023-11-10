@@ -1,5 +1,9 @@
+import { LineUpContainer } from "@/styles/lineUp";
+
 export default function LineUp() {
   return (
-    <h1>Line-Up do evento</h1>
+    <LineUpContainer>
+      <h1>Line-Up do evento</h1>
+    </LineUpContainer>
   )
 }
