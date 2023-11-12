@@ -14,8 +14,8 @@ export default function Home() {
           <button className='line-up'>Line-up do evento</button>
         </Link>
 
-        <Link href={'/paymentForms'}>
-          <button className='ingresso'><strong>Garantir ingresso</strong><br />(1º lote)</button>      
+        <Link href={'https://www.sympla.com.br/conferencia-conexao-2024__2245599'} target='_blank'>
+          <button className='ingresso'><strong>Garantir ingresso</strong></button>      
         </Link>
       </HomeMenu>
 
