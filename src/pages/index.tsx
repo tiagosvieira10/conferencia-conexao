@@ -3,6 +3,7 @@ import logTheMission from '../assets/Conferencia 24.svg'
 import Image from "next/image"
 import sublinhado from '../assets/sublinhado.svg'
 import Link from 'next/link'
+import { Ticket } from '@phosphor-icons/react'
 
 export default function Home() {
   return(
@@ -15,7 +16,7 @@ export default function Home() {
         </Link>
 
         <Link href={'https://www.sympla.com.br/conferencia-conexao-2024__2245599'} target='_blank'>
-          <button className='ingresso'><strong>Garantir ingresso</strong></button>      
+          <button className='ingresso'><strong><Ticket/>Garantir ingresso</strong></button>      
         </Link>
       </HomeMenu>
 

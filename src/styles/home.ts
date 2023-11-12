@@ -57,6 +57,14 @@ export const HomeMenu = styled('div', {
       transition: 'transform 0.2s ease-in-out'
     },
 
+    strong: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+
+      gap: '0.2rem'
+    }
+
     
   },
 
