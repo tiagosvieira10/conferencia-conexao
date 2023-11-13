@@ -5,7 +5,7 @@ export const LineUpContainer = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  marginTop: '5rem',
+  marginTop: '2rem',
 
   '.voltar':{
     display: 'flex',
@@ -36,6 +36,9 @@ export const Preletor = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundColor: '$corSecundaria',
+
+  borderRadius: '100px',
+
   color: '$corFonte',
   padding: '1rem',
 
