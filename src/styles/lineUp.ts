@@ -5,7 +5,7 @@ export const LineUpContainer = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  margin: '0 auto',
+  marginTop: '5rem',
 
   '.voltar':{
     display: 'flex',
@@ -18,21 +18,13 @@ export const LineUpContainer = styled('div', {
     color: '$corSecundaria',
 
     fontSize: '1.5rem'
-  }, 
-
-  '@media screen and (max-width: 768px)': {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    margin: '1rem'
   }
 })
 
 export const PreletoresContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  minWidth: '100vh',
+  minWidth: '50%',
 
   '@media screen and (max-width: 768px)': {
     margin: '1rem'
@@ -48,20 +40,13 @@ export const Preletor = styled('div', {
   padding: '1rem',
 
   h2: {
+    display: 'flex',
+    alignItems: 'center',
+    margin: '0 auto',
+    textAlign: 'center',
     fontSize: '2rem'
-  },
-
-  img: {
-    layout: "responsive"
   },
 
   borderBottom: '1.5rem solid $corPrincipal',
 
-  '@media screen and (max-width: 768px)': {
-    maxWidth: '100vh',
-    img: {
-      height: '20rem',
-      width: '20rem',
-    }
-  }
 })
