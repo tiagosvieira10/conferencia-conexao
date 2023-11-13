@@ -53,8 +53,7 @@ export const HomeMenu = styled('div', {
     textTransform: 'uppercase',
 
     '&:hover': {
-      transform: 'scale(1.1)',
-      transition: 'transform 0.2s ease-in-out'
+      transform: 'scale(1.02)',
     },
 
     strong: {
@@ -74,6 +73,7 @@ export const HomeMenu = styled('div', {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column', 
+    
   }
 
 })
